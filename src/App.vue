@@ -1,15 +1,10 @@
 <template >
-  <div class="bg-black h-screen flex justify-center items-center">
-    <h1 class="text-3xl text-yellow-100 font-bold ">
-    Hello world!
-  </h1>
+  <div class=" h-screen bg-slate-800 flex justify-center items-center">
+    <h1 class="font-bold text-7xl">Coming Soon </h1>
   </div>
 </template>
 <script>
-export default {
-  
-}
+export default {};
 </script>
 <style >
-  
 </style>
