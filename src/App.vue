@@ -1,10 +1,15 @@
 <template >
-  <div class=" h-screen bg-slate-800 flex justify-center items-center">
-    <h1 class="font-bold text-7xl">Coming Soon </h1>
+  <div class="container mx-auto">
+    <!-- <div class="h-screen"> -->
+      <OutputView />
+    <!-- </div> -->
+    <FormControl />
   </div>
 </template>
 <script>
-export default {};
+import FormControl from "./components/FormControl.vue";
+import OutputView from "./pages/OutputView.vue";
+export default { components: { FormControl, OutputView } };
 </script>
 <style >
 </style>
